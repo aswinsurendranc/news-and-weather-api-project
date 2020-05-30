@@ -1,0 +1,183 @@
+@import url("https://pro.fontawesome.com/releases/v5.0.10/css/all.css");
+
+.articlesContent{    
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    border-bottom: 1px solid #ccc;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    padding: 8px;
+    font-size: 14px;    
+}
+ul{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+#sportsSection{
+    border-right: 1px solid #ccc; 
+    background: #fff;
+    box-shadow: 1px 1px 3px 1px #ccc;
+}
+#sportsFirstTemplate img{
+    height: 100%;
+    width: 100%;
+}
+
+
+#entertainmentAllTemplate .list-group{
+    display: flex;
+    flex-flow: row;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+
+
+#entertainmentAllTemplate .list-group a li{
+    width: 199px;
+    margin-top: 25px;
+    
+}
+#entertainmentAllTemplate .list-group img{
+   margin-left: 10px;  
+   margin-top: 10px;
+}
+#entertainmentSection{    
+    border-right: 1px solid #ccc; 
+    background:rgb(241, 7, 7);
+    box-shadow: 1px 1px 3px 1px #ccc;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    
+}
+/* ................................. */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/main_pic.jpg);
+    background-size: cover;
+    background-position: top;
+}
+section #headder{
+    width: 100%;
+     background: rgb(241, 7, 7); 
+    height: 70px;
+    margin-top: -16px;
+    display: flex;
+
+}
+#headder img{
+    width: 705px;
+    height: 69px;
+}
+
+section .ul{
+    display: flex;
+    flex-flow: row;
+    justify-content:flex-end;
+}
+section .ul li{
+    list-style: none;
+    padding: 16px;
+}
+section .ul li a{
+    
+    text-decoration: none;
+    color:black;
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+section .ul li a:hover{
+    color:black;
+    transition: ease all .8s;
+}
+/* ======================================================================== */
+#coronaBlock{
+    height: 50px;
+    display: flex;
+    background: rgb(255, 131, 82);
+    align-items: center;
+}
+#text{
+    width: 9%;
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+#coronaDetails{
+    /* background-color: yellow; */
+    height: 20px;
+    width: 90%;
+    display: flex;
+}
+#coronaDetails div{
+    display: flex;
+    padding-left: 14px;
+}
+#coronaDetails span{
+    font-weight: bolder;
+    margin-top: 5px;
+}
+/* .......................................................... */
+#weatherBlock{
+    width: 50%;
+    background: white;
+    height: 30%;
+    border: solid;
+    border-radius: 40px;
+    background-image: url(./images/cloud.jpg);
+}
+#weatherBlock h4{
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 30px;
+    border-bottom: 1px solid beige;
+}
+#weatherBlock input{
+    margin-left: 110px;
+    
+    text-align: center;
+    margin-top: 30px;
+   
+    border-radius: 4px;
+    width: 65%;
+}
+
+#weatherBlock button{
+    margin-left: -8px;
+    height: 29px
+}
+ 
+#weatherTemplate{
+    height: 420px;
+    font-size: xx-large;
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+
+}
+#searchDataResult img{
+    width: 60px;
+    height: 76px;
+}
+#searchDataName{
+    font-size: 38px;
+    font-weight: 700
+}
+#searchDataResult{
+    font-weight: bold;
+    background: white;
+    width: 50%;
+    height: 347px;
+    margin-top: -6px;
+    margin-left: 237px;
+}
